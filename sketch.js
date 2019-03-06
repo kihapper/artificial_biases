@@ -29,6 +29,7 @@ function setup() {
    }; 
     
   video = createCapture(constraints);
+  video.elt.setAttribute('playsinline', '');
   //video = createCapture(VIDEO);
   //video for code  
     
